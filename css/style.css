@@ -46,6 +46,12 @@ header{
     padding: 18px;
 }
 
+a:hover {
+    background-color: rgba(93, 196, 93, 0.459);
+    border-radius: 40px;
+    transition: .5s;
+}
+
 section.sobre {
     position: relative;
     height: calc(100% - 200px);
@@ -107,4 +113,9 @@ section.sobre {
     cursor: pointer;
     margin-top: 10px;
     margin-left: 200px;
+}
+
+input:hover {
+    background-color: rgb(73, 185, 73);
+    transition: .5s;
 }
